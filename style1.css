@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+
+
+:root {
+    --clr-neon: #14f7ff;
+    --clr-bg: #001414;
+}
+
+body {
+
+    display: grid;
+    place-items: center;
+    background: var(--clr-bg);
+    color: #ffffff;
+    
+}
+
+.row {
+    margin: 8px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    border: 3.4px solid rgb(21, 214, 214);
+    border-radius: 16px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #1a1616, #221d1d);
+    color: white;
+    box-shadow: 0 0 5px cyan;
+}
+
+
+#btnx2{
+    font-size:38px ;
+    padding-left: 28px;
+    padding-right: 20px;
+}
+#btnP{
+
+    padding-left: 44px;
+    padding-right: 44px;
+}
+#btn00{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+#btn- {
+    padding-right: 46px;
+    padding-left: 46px;
+}
+
+#btn0 {
+    padding-right: 160px;
+}
+
+#btndot {
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+#btne {
+    padding-left: 40px;
+
+}
+
+.input {
+   font-family: 'Orbitron', sans-serif;
+   font-size: 50px;
+   color:rgb(66, 238, 66);
+   text-shadow: 0 0 3px rgb(42, 235, 42), 0 0 8px rgb(84, 228, 84), 0 0 17px rgb(42, 235, 42);
+   height: 70px;
+   width: 465px;
+   background: #1a1616;
+   border: 3px solid rgb(108, 255, 255);
+   border-radius: 15px;
+   box-shadow: 0 0 10px rgb(1, 148, 1480);
+}
+input:focus {
+    outline-color: rgb(1, 148, 148);
+  }
